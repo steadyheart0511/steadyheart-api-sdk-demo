@@ -1,0 +1,12 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8080
+spring:
+  # 支持 swagger3
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+steadyheart:
+  client:
+    accessKey: 你的accessKey
+    secretKey: 你的secretKey
